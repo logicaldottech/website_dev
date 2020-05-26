@@ -110,7 +110,23 @@
     ul {
       margin: 0em 0em 1em 2em;
       list-style: disc;
-      font-size: 0.9em;
+      line-height: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    ol {
+      margin: 0em 0em 1em 2em;
+      list-style: decimal;
+      line-height: 1.5rem;
+      font-size: 1.2rem;
+    }
+
+    li {
+      margin: 0em 0em 0em 0em;
+    }
+
+    ul#auto-table-of-contents {
+      font-size: 1.1em;
     }
     
     table {

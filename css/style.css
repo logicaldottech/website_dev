@@ -4101,7 +4101,23 @@ section.docs-layout section.docs-section hr.normal {
 section.docs-layout section.docs-section ul {
   margin: 0em 0em 1em 2em;
   list-style: disc;
-  font-size: 0.9em;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+section.docs-layout section.docs-section ol {
+  margin: 0em 0em 1em 2em;
+  list-style: decimal;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+section.docs-layout section.docs-section li {
+  margin: 0em 0em 0em 0em;
+}
+
+section.docs-layout section.docs-section ul#auto-table-of-contents {
+  font-size: 1.1em;
 }
 
 section.docs-layout section.docs-section table {

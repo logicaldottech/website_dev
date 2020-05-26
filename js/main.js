@@ -176,7 +176,8 @@
      */
     let $items = $(".toc-widget li")
     let search = function () {
-      let term = $(this).val().toLowerCase()
+      let term = $(this).val().toLowerCase().replace(/ /g, ",").replace(/\?/, "")
+      console.log(term)
       if (term.length < 3) {
         $items.removeClass("matching-item")
         $items.removeClass("non-matching-item")
@@ -226,15 +227,9 @@
     // FAQ TOC
     let toc = $("#auto-table-of-contents")
     if (toc) {
-      toc.nextAll("h2").each((e, h2) => {
-        let url = window.location.pathname + "#" + h2.id
-        toc.append("<li><a href='" + url + "'>" + $(h2).html() + "</a></li>")
-        let ul = $("<ul></ul>")
-        toc.append(ul)
-        $(h2).nextUntil("h2", "h3").each((e, h3) => {
-          let url = window.location.pathname + "#" + h3.id
-          ul.append("<li><a href='" + url + "'>" + $(h3).html() + "</a></li>")
-        })
+      $(toc).nextAll("h3").each((e, h3) => {
+        let url = window.location.pathname + "#" + h3.id
+        toc.append("<li><a href='" + url + "'>" + $(h3).html() + "</a></li>")
       })
     }
   });
