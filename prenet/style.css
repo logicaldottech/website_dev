@@ -175,7 +175,7 @@ table.data td.big {
 
 figure {
     border: 1px solid #ddd;
-    margin: 16px 40px 16px 40px;
+    margin:0px;
     width:50%;
     display: flex;
     justify-content: space-around;
@@ -362,8 +362,7 @@ figure {
 
 .headtable {
     border: 1px solid #ddd;
-    margin: 16px 40px 16px 40px;
-        width: 50%;
+    width: 50%;
     display: inline-flex;
     flex-direction: inherit;
     flex-wrap: wrap;
@@ -371,11 +370,14 @@ figure {
 }
 
 .headtable .doclet {
-       width: 33%;
+    height: 100px;
+    width: 33%;
     flex-grow: 1;
     margin: 3px;
     padding: 5px;
-    background-color: #e6e1e1;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+    border-left: 1px solid #ececec;
 }
 
 .headtable .doclet h2 {
