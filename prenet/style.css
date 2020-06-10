@@ -573,6 +573,7 @@ form.example::after {
   display: table;
 }
 form.example {
+        margin-bottom: 40px;
     background: #EB5B33;
-    padding: 46px 30px 21px 30px;
+    padding: 2px 30px 21px 30px;
 }
