@@ -547,31 +547,32 @@ figure {
   }
 form.example input[type=text] {
   padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
+    font-size: 17px;
+    border: 1px solid #e4e4e4;
+    float: left;
+    width: 80%;
+    background: white;
 }
 
 form.example button {
   float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+    width: 20%;
+    padding: 10px;
+    background: #D6442E;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #D6442E;
+    border-left: none;
+    cursor: pointer;
 }
 
-form.example button:hover {
-  background: #0b7dda;
-}
 
 form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+form.example {
+    background: #EB5B33;
+    padding: 46px 30px 21px 30px;
 }
