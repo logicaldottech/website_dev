@@ -189,6 +189,8 @@ figure {
 }
 
 .figure-title {
+    padding-right: 10px;
+    float: left;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -208,7 +210,7 @@ figure {
 }
 
 .figure-content svg {
-    width:60%;
+    
     height: auto;
 }
 
@@ -222,6 +224,7 @@ figure {
 
 .figure-key-list {
     margin: 0;
+    width: 300px;
     padding: 0;
     list-style: none;
 }
