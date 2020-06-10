@@ -87,8 +87,9 @@ td.fleet, th.fleet {
 }
 
 table.data {
-    background-color: #fbfbfb;
-    width: 100%;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    width: 100% !important;
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -98,8 +99,9 @@ table.data tr:nth-child(2n) {
 }
 
 table.data th, table.data td {
+    height: 70px;
     text-align: left;
-    border: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 8px;
 }
 
