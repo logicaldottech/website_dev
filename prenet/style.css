@@ -76,10 +76,13 @@ ul.navbar li a.router-link-exact-active::before {
 }
 
 .title {
+    margin-bottom: 40px;
     content: "";
     display: table;
     clear: both;
+    width: 100%;
     text-align: left;
+    margin-top: 28px;
 }
 
 .title h1 {
