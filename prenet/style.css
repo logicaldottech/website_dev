@@ -110,8 +110,10 @@ table.data th.big, table.data td.big {
 }
 
 table.data th {
+    font-size: 22px;
     white-space: nowrap;
     vertical-align: top;
+    padding-top: 20px;
 }
 
 
