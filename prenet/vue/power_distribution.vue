@@ -9,7 +9,7 @@
     </div>
     
     <!-- Search Code -->
-    <form class="example" action="/action_page.php">
+    <form class="example">
   <input type="text" placeholder="Search.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
