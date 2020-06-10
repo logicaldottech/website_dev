@@ -9,21 +9,11 @@
     </div>
     
     <!-- Search Code -->
-    
-    <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-  <div id="myDropdown" class="dropdown-content">
-    
-    <a href="<% formatUnix(block.timestamp) %>">Address</a>
-    <a href="#base">Block</a>
-    <a href="#blog">Txn Hash</a>
-    <a href="#contact">Token</a>
-    <a href="#custom">Custom</a>
-    <a href="#support">Ens</a>
+    <form class="example" action="/action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
   
-  </div>
-</div>
 
     
     
@@ -274,27 +264,4 @@ var PowerDistribution = Vue.component("power_distribution", {
 });
 </script>
 
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-function filterFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  div = document.getElementById("myDropdown");
-  a = div.getElementsByTagName("a");
-  for (i = 0; i < a.length; i++) {
-    txtValue = a[i].textContent || a[i].innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
-}
-</script>
 
