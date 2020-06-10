@@ -82,13 +82,16 @@ ul.navbar li a.router-link-exact-active::before {
     clear: both;
     width: 100%;
     text-align: left;
-    margin-top: 28px;
+    margin-top: 10px;
 }
-
+.title p {
+    margin-top: 14px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
 .title h1 {
     float: left;
     width: 50%;
-    margin: 0.2em;
     font-weight: normal;
     font-size: 1.3em;
    
