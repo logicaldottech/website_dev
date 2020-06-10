@@ -10,13 +10,10 @@
     
     <!-- Search Code -->
     <form class="example">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-  
-
-    
-    
+    <p>Prenet</p>
+  <input type="text" placeholder="Search by Address/Txn Hash/Block/Token/Ens" name="search">
+  <button type="submit">Search</i></button>
+</form>    
     <div style=" flex-direction: row; align-items: flex-start;">
       <div style="display: flex; /* flex-direction: column */">
         <div class="headtable">
