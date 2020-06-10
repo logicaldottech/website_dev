@@ -2,10 +2,10 @@
   <div>
     <div class="title">
       <h1>Prenet miner distribution over the last 100 Blocks</h1>
-      <small>
+      <p>
         connected to
         <account-link :hash="base" :length="50" :only-alias="false" />
-      </small>
+      </p>
     </div>
     <div style=" flex-direction: row; align-items: flex-start;">
       <div style="display: flex; /* flex-direction: column */">
