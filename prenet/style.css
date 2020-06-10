@@ -88,8 +88,7 @@ ul.navbar li a.router-link-exact-active::before {
     margin: 0.2em;
     font-weight: normal;
     font-size: 1.3em;
-    border-bottom: 1px solid;
-    border-color: gray;
+   
 }
 
 td.fleet, th.fleet {
