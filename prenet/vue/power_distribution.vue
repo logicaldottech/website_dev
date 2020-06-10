@@ -7,6 +7,26 @@
         <account-link :hash="base" :length="50" :only-alias="false" />
       </p>
     </div>
+    
+    <!-- Search Code -->
+    
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+  <div id="myDropdown" class="dropdown-content">
+    
+    <a href="#about">Address</a>
+    <a href="#base">Block</a>
+    <a href="#blog">Txn Hash</a>
+    <a href="#contact">Token</a>
+    <a href="#custom">Custom</a>
+    <a href="#support">Ens</a>
+  
+  </div>
+</div>
+
+    
+    
     <div style=" flex-direction: row; align-items: flex-start;">
       <div style="display: flex; /* flex-direction: column */">
         <div class="headtable">
@@ -253,3 +273,28 @@ var PowerDistribution = Vue.component("power_distribution", {
   }
 });
 </script>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+
