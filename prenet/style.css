@@ -356,10 +356,11 @@ figure {
 }
 
 .headtable .doclet {
+       width: 33%;
     flex-grow: 1;
     margin: 3px;
     padding: 5px;
-    background-color: gainsboro;
+    background-color: #e6e1e1;
 }
 
 .headtable .doclet h2 {
