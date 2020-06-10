@@ -15,7 +15,7 @@
   <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
   <div id="myDropdown" class="dropdown-content">
     
-    <a href="#about">Address</a>
+    <a href="<% formatUnix(block.timestamp) %>">Address</a>
     <a href="#base">Block</a>
     <a href="#blog">Txn Hash</a>
     <a href="#contact">Token</a>
