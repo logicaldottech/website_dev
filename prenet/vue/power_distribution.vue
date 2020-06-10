@@ -29,6 +29,23 @@
         </div>
         <!-- https://medium.com/@heyoka/scratch-made-svg-donut-pie-charts-in-html5-2c587e935d72 -->
         <figure>
+          
+          <figcaption class="figure-key">
+            <p class="sr-only">Donut chart showing <% blocks.length %> most recent blocks.</p>
+
+            <ul class="figure-key-list" aria-hidden="true" role="presentation">
+              <li v-for="miner in shares" :key="miner.name">
+                <span class="shape-circle" v-bind:style="{ backgroundColor: miner.color }"></span>
+                <div style="flow: flex; flex-layout: column;">
+                  <div class="figure-title">
+                    <account-link :hash="miner.name" :only-alias="true" :length="10"></account-link> <% miner.percent %>%
+                  </div>
+                  <div><% miner.count %> Blocks</div>
+                  <div v-if="stakes[miner.name]"><% stakes[miner.name].value %> DIO</div>
+                </div>
+              </li>
+            </ul>
+          </figcaption>
           <div class="figure-content">
             <svg
               width="100%"
@@ -83,22 +100,6 @@
               </g>
             </svg>
           </div>
-          <figcaption class="figure-key">
-            <p class="sr-only">Donut chart showing <% blocks.length %> most recent blocks.</p>
-
-            <ul class="figure-key-list" aria-hidden="true" role="presentation">
-              <li v-for="miner in shares" :key="miner.name">
-                <span class="shape-circle" v-bind:style="{ backgroundColor: miner.color }"></span>
-                <div style="flow: flex; flex-layout: column;">
-                  <div class="figure-title">
-                    <account-link :hash="miner.name" :only-alias="true" :length="10"></account-link> <% miner.percent %>%
-                  </div>
-                  <div><% miner.count %> Blocks</div>
-                  <div v-if="stakes[miner.name]"><% stakes[miner.name].value %> DIO</div>
-                </div>
-              </li>
-            </ul>
-          </figcaption>
         </figure>
       </div>
       <table class="data" style="width: auto">
