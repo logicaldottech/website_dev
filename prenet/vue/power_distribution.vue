@@ -13,10 +13,10 @@
           <div class="doclet">
             <h2>DIO Free Flow</h2>
             <span><% totalSupply %></span>
+            </div>
           <div class="doclet">
             <h2>Fleets</h2>
             <span><% totalFleets %></span>
-          </div>
           </div>
           <div class="doclet">
             <h2>Accounts</h2>
