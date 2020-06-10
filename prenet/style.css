@@ -208,6 +208,7 @@ figure {
 }
 
 .figure-content svg {
+    width:60%;
     height: auto;
 }
 
