@@ -10,7 +10,7 @@
     
     <!-- Search Code -->
     <form class="example">
-    <p>Prenet</p>
+    <p style="color:white;">Prenet</p>
   <input type="text" placeholder="Search by Address/Txn Hash/Block/Token/Ens" name="search">
   <button type="submit">Search</i></button>
 </form>    
