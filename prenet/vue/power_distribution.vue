@@ -7,7 +7,7 @@
         <account-link :hash="base" :length="50" :only-alias="false" />
       </small>
     </div>
-    <div style="display: flex; flex-direction: row; align-items: flex-start;">
+    <div style=" flex-direction: row; align-items: flex-start;">
       <div style="display: flex; flex-direction: column">
         <div class="headtable">
           <div class="doclet">
@@ -18,6 +18,8 @@
             <h2>Fleets</h2>
             <span><% totalFleets %></span>
           </div>
+          </div>
+          <div class="headtable">
           <div class="doclet">
             <h2>Accounts</h2>
             <span><% totalAccounts %></span>
