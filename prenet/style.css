@@ -208,7 +208,14 @@ figure {
     padding-right: 15px;
     align-self: center;
 }
-
+.ul1{
+ float:left;  
+ padding-right: 10px;
+}
+.ul2{
+ float:left; 
+    padding-right: 10px;
+}
 .figure-content svg {
     
     height: auto;
