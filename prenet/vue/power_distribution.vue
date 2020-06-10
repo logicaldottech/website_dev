@@ -40,8 +40,8 @@
                   <div class="figure-title">
                     <account-link :hash="miner.name" :only-alias="true" :length="10"></account-link> <% miner.percent %>%
                   </div>
-                  <div><% miner.count %> Blocks</div>
-                  <div v-if="stakes[miner.name]"><% stakes[miner.name].value %> DIO</div>
+                  <div class="ul1"><% miner.count %> Blocks</div>
+                  <div class="ul2" v-if="stakes[miner.name]"><% stakes[miner.name].value %> DIO</div>
                 </div>
               </li>
             </ul>
