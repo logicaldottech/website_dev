@@ -8,7 +8,7 @@
       </small>
     </div>
     <div style=" flex-direction: row; align-items: flex-start;">
-      <div style="display: flex; flex-direction: column">
+      <div style="display: flex; /* flex-direction: column */">
         <div class="headtable">
           <div class="doclet">
             <h2>DIO Free Flow</h2>
