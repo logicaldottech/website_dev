@@ -349,10 +349,11 @@ figure {
 }
 
 .headtable {
-    width:50%;
-    display: flex;
-    flex-direction: row;
+        width: 50%;
+    display: inline-flex;
+    flex-direction: inherit;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .headtable .doclet {
