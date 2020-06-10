@@ -178,8 +178,7 @@ figure {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-left: -15px;
-    margin-right: -15px;
+    background:white;
 }
 
 @media (min-width: 768px) {
