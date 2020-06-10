@@ -2,6 +2,7 @@
 body {
     font: 16px/1.4em "Titillium Web", Arial, sans-serif;
     background-image: url(background.png);
+    background:#F8F9FB;
 }
 
 #app {
