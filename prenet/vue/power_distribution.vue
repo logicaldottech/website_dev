@@ -19,19 +19,19 @@
         <div class="headtable">
           <div class="doclet">
             <h2>DIO Free Flow</h2>
-            <span><% totalSupply %></span>
+            <span class="colorchange"><% totalSupply %></span>
             </div>
           <div class="doclet">
             <h2>Fleets</h2>
-            <span><% totalFleets %></span>
+            <span class="colorchange"><% totalFleets %></span>
           </div>
           <div class="doclet">
             <h2>Accounts</h2>
-            <span><% totalAccounts %></span>
+            <span class="colorchange"><% totalAccounts %></span>
           </div>
           <div class="doclet">
             <h2>Miners</h2>
-            <span><% totalMiners %></span>
+            <span class="colorchange"><% totalMiners %></span>
           </div>
         </div>
         <!-- https://medium.com/@heyoka/scratch-made-svg-donut-pie-charts-in-html5-2c587e935d72 -->
