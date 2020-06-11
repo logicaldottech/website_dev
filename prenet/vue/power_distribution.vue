@@ -1,7 +1,7 @@
 <template id="power_distribution">
   <div>
     <div class="title">
-      <h1>Prenet miner distribution over the last 100 Blocks</h1>
+      <h1>Diode Prenet Statistics, Last 100 Blocks</h1>
       <p>
         connected to
         <account-link :hash="base" :length="50" :only-alias="false" />
@@ -10,7 +10,7 @@
     
     <!-- Search Code -->
     <form class="example">
-    <p style="color:white;">Prenet</p>
+    <p style="color:white;">Prenet Blockchain Explorer</p>
   <input type="text" placeholder="Search by Address/Txn Hash/Block/Token/Ens" name="search">
   <button type="submit">Search</i></button>
 </form>    
