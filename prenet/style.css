@@ -50,12 +50,14 @@ ul.navbar li {
 }
 
 ul.navbar li a {
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     color: #111111;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 0.08rem;
     text-decoration: none;
     white-space: nowrap;
-    font-weight: bold;
     transition: all 300ms ease-in-out;
 }
 
@@ -85,6 +87,7 @@ ul.navbar li a.router-link-exact-active::before {
     margin-top: 10px;
 }
 .title p {
+    color: green;
     text-align: right;
     margin-top: 14px;
     font-size: 1.1em;
@@ -393,15 +396,17 @@ figure {
     width: 33%;
     flex-grow: 1;
     margin: 3px;
-    padding: 5px;
+    padding: 5px 5px 5px 24px;
     background-color: #ffffff;
     border-bottom: 1px solid #ececec;
     border-left: 1px solid #ececec;
 }
 
 .headtable .doclet h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
     margin: 0px;
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 .network path {
@@ -574,6 +579,7 @@ form.example::after {
   display: table;
 }
 form.example {
+    display:none;
         margin-bottom: 40px;
     background: #EB5B33;
     padding: 2px 30px 21px 30px;
@@ -586,4 +592,17 @@ span.colorchange {
 
 .title a {
     color: #eb5b33;
+}
+
+@media screen and (min-width: 1440px), {(max-width: 1600px){
+    .headtable{
+     width:60%;   
+    }
+    
+}
+    @media screen and (min-width: 1620px), {(max-width: 1900px){
+    .headtable{
+     width:85%;   
+    }
+    
 }
