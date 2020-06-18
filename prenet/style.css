@@ -252,8 +252,9 @@ figure {
 }
 
 .figure-key-list {
+    font-size: 13px;
     margin: 0;
-    width: 300px;
+    width: 254px;
     padding: 0;
     list-style: none;
 }
