@@ -119,6 +119,7 @@ table.data tr:nth-child(2n) {
 }
 
 table.data th, table.data td {
+   
     height: 70px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -130,7 +131,7 @@ table.data th.big, table.data td.big {
 }
 
 table.data th {
-    font-size: 22px;
+    font-size: 16px;
     white-space: nowrap;
     vertical-align: top;
     padding-top: 20px;
@@ -394,7 +395,6 @@ figure {
 }
 
 .headtable .doclet {
-    height: 100px;
     width: 33%;
     flex-grow: 1;
     margin: 3px;
