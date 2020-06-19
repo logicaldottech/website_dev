@@ -389,7 +389,7 @@ figure {
     display: inline-flex;
     flex-direction: inherit;
     flex-wrap: wrap;
-    height: fit-content;
+    
 }
 
 .headtable .doclet {
