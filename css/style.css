@@ -269,6 +269,9 @@ table {
   .hidden-sm {
     display: none !important;
   }
+  .headtable{
+    width:100%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
